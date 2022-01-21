@@ -22,7 +22,7 @@
         "ext-pdo": "*",
         "php": "^6.0|^7.0",
         "guzzlehttp/guzzle": "^6.0|^7.0",
-        "illuminate/support": "^6.0|^7.0",
+        "illuminate/support": "^6|^7|^8|^9",
         "illuminate/database": "^6.0|^7.0",
         "illuminate/pagination": "^6.0|^7.0",
         "illuminate/encryption": "^6.0|^7.0"
