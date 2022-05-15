@@ -39,7 +39,7 @@ class Grammar extends SchemaGrammar
      */
     public function compileColumnExists($table)
     {
-        return 'select b.colname from systables a join syscolumns b on a.tabid=b.tabid where a.tabname=lower(?)';
+        return 'select b.colname as column_name from systables a join syscolumns b on a.tabid=b.tabid where a.tabname=lower(?)';
     }
 
     /**
